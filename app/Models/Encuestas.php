@@ -12,7 +12,7 @@ class Encuestas extends Model
     protected $table = 'encuestas';
 
     protected $fillable = [
-        'id','pregunta_1','pregunta_2','pregunta_3','created_by_user_id'
+        'id','pregunta_1','pregunta_2','pregunta_3','created_by_user_id','updated_by_user_id','created_at','updated_at'
     ];
 
 }
